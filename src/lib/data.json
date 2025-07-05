@@ -1,0 +1,149 @@
+
+{
+  "siteSettings": {
+    "logoUrl": "",
+    "backgroundUrl": "",
+    "showTestimonials": true,
+    "showFeaturedProjects": true,
+    "useAiForKeywords": false,
+    "navLinks": [
+      {
+        "href": "/",
+        "label": "Home",
+        "hidden": false
+      },
+      {
+        "href": "/portfolio",
+        "label": "Portfolio",
+        "hidden": false
+      },
+      {
+        "href": "/about",
+        "label": "About",
+        "hidden": false
+      },
+      {
+        "href": "/contact",
+        "label": "Contact",
+        "hidden": false
+      }
+    ],
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "href": "#"
+      },
+      {
+        "name": "LinkedIn",
+        "href": "#"
+      },
+      {
+        "name": "Twitter",
+        "href": "#"
+      }
+    ],
+    "homeHero": {
+      "headline": "Crafting Digital Excellence",
+      "subheadline": "Welcome to my portfolio. I specialize in creating beautiful, functional, and user-centric web experiences. Explore my work to see how I can bring your vision to life."
+    }
+  },
+  "aboutMe": {
+    "narrative": "I am a passionate and creative full-stack developer with a knack for building beautiful, functional, and user-centric web experiences. With over 5 years in the industry, I've had the privilege of working on a diverse range of projects, from sleek marketing sites to complex web applications. My philosophy is to blend cutting-edge technology with elegant design to create digital products that not only look good but also solve real-world problems. When I'm not coding, you can find me exploring hiking trails or experimenting with new recipes.",
+    "professionalPhotoUrl": "https://placehold.co/400x400.png",
+    "resumeUrl": "/placeholder-resume.pdf",
+    "briefResumeUrl": "/placeholder-brief-resume.pdf"
+  },
+  "contact": {
+    "email": "hello@profolio.com",
+    "phone": "(123) 456-7890",
+    "location": "San Francisco, CA"
+  },
+  "skills": [
+    "React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Node.js", "Python", "GraphQL", "REST APIs",
+    "PostgreSQL", "MongoDB", "Docker", "Google Cloud", "Firebase", "Tailwind CSS", "Figma", "UI/UX Design"
+  ],
+  "portfolioItems": [
+    {
+      "id": "e-commerce-platform",
+      "title": "E-commerce Platform",
+      "description": "A full-featured e-commerce platform with a custom CMS, product management, and secure payment integration.",
+      "images": [
+        "https://placehold.co/1200x800.png",
+        "https://placehold.co/1200x800.png",
+        "https://placehold.co/1200x800.png"
+      ],
+      "imageHint": "online store",
+      "caseStudy": {
+        "role": "Lead Full-Stack Developer",
+        "challenge": "The client needed a scalable e-commerce solution that could handle high traffic and provide a seamless user experience, from browsing to checkout. The main challenge was to build a custom, user-friendly CMS for non-technical staff.",
+        "process": "We started with a discovery phase, mapping out user journeys and technical requirements. I designed the system architecture using a microservices approach with Next.js for the frontend and Node.js for the backend services. We used Stripe for payments and developed a custom CMS with a drag-and-drop interface.",
+        "results": "The new platform resulted in a 40% increase in conversion rates and a 60% reduction in time spent managing products. Customer satisfaction scores improved by 25% within the first three months of launch."
+      }
+    },
+    {
+      "id": "real-estate-app",
+      "title": "Real Estate App",
+      "description": "A mobile-first web application for a real estate agency, featuring property listings, virtual tours, and agent dashboards.",
+      "images": [
+        "https://placehold.co/1200x800.png",
+        "https://placehold.co/1200x800.png",
+        "https://placehold.co/1200x800.png"
+      ],
+      "imageHint": "house property",
+      "caseStudy": {
+        "role": "Frontend Developer",
+        "challenge": "To create a fast, intuitive, and visually appealing property search experience for mobile users, while provide powerful tools for real estate agents to manage their listings and leads.",
+        "process": "I led the frontend development using React and Next.js, focusing on performance and responsive design. I integrated Mapbox for interactive maps and implemented a custom virtual tour feature using 360-degree images. We conducted extensive user testing to refine the interface.",
+        "results": "The app achieved a 200% increase in user engagement and became the primary lead generation tool for the agency. It was praised for its speed and ease of use, leading to a feature in a prominent tech blog."
+      }
+    },
+    {
+      "id": "data-visualization-dashboard",
+      "title": "Data Visualization Dashboard",
+      "description": "A complex data visualization dashboard for a fintech company to track market trends and analyze performance.",
+      "images": [
+        "https://placehold.co/1200x800.png",
+        "https://placehold.co/1200x800.png",
+        "https://placehold.co/1200x800.png"
+      ],
+      "imageHint": "charts graphs",
+      "caseStudy": {
+        "role": "UI/UX Designer & Frontend Developer",
+        "challenge": "The primary challenge was to present a vast amount of complex financial data in a way that was both intuitive and actionable for traders and analysts. The dashboard needed to be highly performant and customizable.",
+        "process": "My role involved both UX design and frontend development. I started by creating wireframes and interactive prototypes in Figma, working closely with stakeholders to define key metrics and chart types. I then built the dashboard using React and D3.js, focusing on real-time data updates via WebSockets and performance optimization.",
+        "results": "The dashboard enabled analysts to identify market trends 50% faster than before. It received overwhelmingly positive feedback for its clarity and performance, and was adopted company-wide as the standard tool for data analysis."
+      }
+    },
+    {
+      "id": "project-management-tool",
+      "title": "Project Management Tool",
+      "description": "A SaaS application designed to help teams collaborate, track tasks, and manage project timelines effectively.",
+      "images": [
+          "https://placehold.co/1200x800.png",
+          "https://placehold.co/1200x800.png",
+          "https://placehold.co/1200x800.png"
+      ],
+      "imageHint": "team collaboration",
+      "caseStudy": {
+          "role": "Full-Stack Developer",
+          "challenge": "Developing a real-time, collaborative project management tool that is both powerful and easy to use. Key features included kanban boards, Gantt charts, and real-time notifications.",
+          "process": "I utilized a MERN stack (MongoDB, Express, React, Node.js) with Socket.io for real-time features. I designed and implemented the database schema, RESTful APIs, and the interactive frontend components. We followed an agile development process with bi-weekly sprints.",
+          "results": "The tool was adopted by over 1,000 beta users within the first month. It helped teams improve their productivity by an average of 30% and was praised for its intuitive user interface."
+      }
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Working with them was an absolute pleasure. Their attention to detail, creativity, and technical expertise are second to none. They transformed our vision into a stunning, functional reality that exceeded all our expectations.",
+      "name": "Jane Doe",
+      "title": "CEO, Innovate Inc.",
+      "avatarUrl": "https://placehold.co/100x100.png"
+    },
+    {
+      "quote": "The best developer I've ever worked with. They are not only incredibly talented but also a fantastic communicator. The project was delivered on time, on budget, and the final product was flawless. Highly recommended!",
+      "name": "John Smith",
+      "title": "Marketing Director, Tech Solutions",
+      "avatarUrl": "https://placehold.co/100x100.png"
+    }
+  ]
+}
